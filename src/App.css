@@ -1,0 +1,44 @@
+
+.Header {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Content {
+  display: block;
+  background-color: #0000000e;
+  height: 100vh;
+}
+
+.Container {
+  height: 40rem;
+  margin-top: 10%;
+  border: none;
+  display: flex;
+}
+
+.Box {
+  width: 40%;
+  height: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+  border: none;
+  /* align-items: center; */
+}
+
+#block-title {
+  align-self: auto;
+  /* font-weight: bold; */
+  font-size: 20px;
+  margin-right: 2rem;
+}
+
+#block-number {
+  align-self: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
